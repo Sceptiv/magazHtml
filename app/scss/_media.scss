@@ -11,12 +11,104 @@
 
 }
 @media only screen and (max-width : 992px){
+body{
+  #home {
+    height: auto;
+    padding-bottom: 30px;
+    .navbar {
+      position: static;
+      button {
+        //margin-top: 3px;
+        background-color: #0182d0;
+        border: none;
+        outline: none;
+      }
+    }
+    #navbarNav {
+      background-color: #30c1ff;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 55px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      li {
+        text-align: center;
+
+
+      }
+
+    }
+  }
+  }
+  .description{
+    h1{
+      margin-top: 70%;
+      font-size: 24px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+
 
 }
 @media screen and (max-width : 768px){
+  body {
+    header {
+      height: auto;
+    }
+  }
+  .description {
+    h1 {
+      margin-top: 60%;
+      font-size: 24px;
+    }
+  }
+  body {
+    #six {
+      form {
+        width: 80%;
+      }
+    }
+      footer{
+        .footer-logo{
+          text-align: center;
+        }
+
+      }
+    .footer-menu{
+      text-align: center;
+      margin-top: 20px;
+    }
+    }
+
 
 }
 @media only screen and (max-width : 480px){
+  header{
+    height: auto;
+  }
+  .description {
+    h1 {
+      margin-top: 100%;
+      font-size: 24px;
+    }
+  }
+  body {
+    #home{
+      button{
+        margin-right: -20px;
+      }
+    }
+    #six {
+      form {
+        width: 100% !important;
+      }
+    }
+
+
+  }
 
 }
 
